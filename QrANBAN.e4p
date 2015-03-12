@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
 <!-- eric project file for project QrANBAN -->
-<!-- Saved: 2015-03-12, 20:44:04 -->
-<!-- Copyright (C) 2015 Harald Gutbrod, harald.gutbrod@gmail.com -->
+<!-- Saved: 2015-03-12, 21:53:41 -->
+<!-- Copyright (C) 2015 abaphacker,  -->
 <Project version="5.1">
   <Language>en_US</Language>
   <Hash>d08fa63594b603e8bb71b46f06d78eaaeb6f7076</Hash>
@@ -10,11 +10,14 @@
   <ProjectType>Console</ProjectType>
   <Description>QrANBAN is a Tool to convert a picture of a kanban board into CSV Data</Description>
   <Version>0.1</Version>
-  <Author>Harald Gutbrod</Author>
-  <Email>harald.gutbrod@gmail.com</Email>
+  <Author>abaphacker</Author>
+  <Email></Email>
+  <Eol index="-1"/>
   <Sources>
     <Source>img2kanban.py</Source>
     <Source>__init__.py</Source>
+    <Source>detectCards.py</Source>
+    <Source>card.py</Source>
   </Sources>
   <Forms/>
   <Translations/>
